@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Weevilcorp/packages-quickstart#readme",
   "publishConfig": {
     "Weevilcorp:packages-quickstart": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
   }
 }
