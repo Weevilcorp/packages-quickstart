@@ -1,1 +1,4 @@
-console.log("Hello, World!");
+module.exports = {
+    name: 'Weevilcorp',
+    website: 'https://www.weevilcorp.com'
+}
