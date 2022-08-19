@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Weevilcorp/packages-quickstart/issues"
   },
-  "homepage": "https://github.com/Weevilcorp/packages-quickstart#readme"
+  "homepage": "https://github.com/Weevilcorp/packages-quickstart#readme",
+  "publishConfig": {
+    "Weevilcorp:node": "https://npm.pkg.github.com"
+  }
 }
