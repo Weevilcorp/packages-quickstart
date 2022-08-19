@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Weevilcorp/packages-quickstart#readme",
   "publishConfig": {
-    "Weevilcorp:node": "https://npm.pkg.github.com"
+    "Weevilcorp:packages-quickstart": "https://npm.pkg.github.com"
   }
 }
