@@ -1,1 +1,1 @@
-npm i @weevilcorp/app@1.0.0
+npm i @weevilcorp/packages-quickstart@1.0.2
