@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'docker version'
+                sh 'docker run -v $(pwd):/usr/src/app sharpfranklin/node:18-alpine3.15 node index.js'
             }
         }
     }
