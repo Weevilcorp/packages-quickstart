@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'docker compose up'
+                sh 'docker compose up -d'
                 sh 'docker compose exec packages-quickstart npm ci'
                 sh 'docker compose exec packages-quickstart npm test'
                 sh 'docker compose down'
