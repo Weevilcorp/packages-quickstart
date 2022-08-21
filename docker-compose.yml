@@ -7,3 +7,8 @@ services:
       - ./:/usr/src/app
     working_dir: /usr/src/app
     command: "tail -f /dev/null"
+
+networks:
+  default:
+    name: bridge-1
+    external: true

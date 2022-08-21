@@ -6,7 +6,7 @@ pipeline {
                 sh 'docker compose up -d'
                 sh 'docker compose exec packages-quickstart npm ci'
                 sh 'docker compose exec packages-quickstart npm test'
-                sh 'docker compose down'
+                //sh 'docker compose down'
             }
         }
     }
