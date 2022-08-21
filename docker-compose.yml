@@ -2,7 +2,7 @@ version: "3.9"
    
 services:
   packages-quickstart:
-    name: packages-quickstart
+    container_name: packages-quickstart
     image: sharpfranklin/node:18-alpine3.15
     volumes:
       - ./:/usr/src/app
