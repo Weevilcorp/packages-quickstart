@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'node:16.13.1-alpine' }
+        docker { image 'sharpfranklin/node:18-alpine3.15' }
     }
     stages {
         stage('Test') {
