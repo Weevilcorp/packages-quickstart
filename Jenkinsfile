@@ -3,7 +3,10 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'docker run --rm -v $(pwd):/usr/src/app --workdir="/usr/src/app" sharpfranklin/node:18-alpine3.15 node index.js'
+                sh 'docker compose up'
+                sh 'docker compose exec packages-quickstart npm i'
+                sh 'docker compose exec packages-quickstart npm test'
+                sh 'docker compose down'
             }
         }
     }
