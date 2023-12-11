@@ -11,3 +11,9 @@ module.exports = {
     website: 'https://www.weevilcorp.com'
 }
 ```
+
+## How to use
+```js
+const pq = ('@weevilcorp/packages-quickstart');
+console.log('name: '+pq.name);
+```
